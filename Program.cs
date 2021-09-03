@@ -67,17 +67,17 @@ namespace Test1
      [Test]
         public void SubTest()
         {
-            Assert.AreEqual(5, Add(8, 3));
+            Assert.AreEqual(5, Sub(8, 3));
         }
      [Test]
         public void MultTest()
         {
-            Assert.AreEqual(5, Add(2.5, 2));
+            Assert.AreEqual(5, Mult(2.5, 2));
         }
      [Test]
         public void DivTest()
         {
-            Assert.AreEqual(5, Add(10, 2));
+            Assert.AreEqual(5, Div(10, 2));
         }
     }
 }
