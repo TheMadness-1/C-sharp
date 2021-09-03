@@ -72,7 +72,7 @@ namespace Test1
      [Test]
         public void MultTest()
         {
-            Assert.AreEqual(5, Mult(2.5, 2));
+            Assert.AreEqual(5, Mult(2.5f, 2));
         }
      [Test]
         public void DivTest()
